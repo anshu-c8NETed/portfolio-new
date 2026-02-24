@@ -1,146 +1,81 @@
-# 🚀 Anshu Raj - Portfolio
+<div align="center">
 
-A cutting-edge, developer-themed portfolio showcasing full-stack development expertise with stunning 3D graphics, smooth animations, and a cyberpunk aesthetic.
+# Anshu Raj — Portfolio
 
+**Full-Stack Developer · 3D & Animation Specialist**
 
-## ✨ Features
+![Built with Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-### 🎨 Visual Design
-- **Cyberpunk Aesthetic** - Dark theme with neon accents (green, blue, purple)
-- **Custom Cursor** - Interactive arrow cursor with section-based color changes (desktop only)
-- **3D Graphics** - Three.js powered helmet model with particle systems
-- **Smooth Animations** - GSAP-powered scroll animations and transitions
-- **Responsive Design** - Fully optimized for mobile, tablet, and desktop
+[Live Site](https://anshu-raj.vercel.app) · [LinkedIn](https://www.linkedin.com/in/anshu-raj-tech) · [GitHub](https://github.com/anshu-c8NETed)
 
-### 🛠️ Technical Highlights
-- **React 18** - Modern component architecture with hooks
-- **Three.js & React Three Fiber** - 3D web graphics and WebGL
-- **GSAP & ScrollTrigger** - Professional-grade animations
-- **Lenis** - Smooth scroll implementation
-- **Tailwind CSS** - Utility-first styling with custom theme
-- **Vite** - Lightning-fast build tool
-
-### 📱 Sections
-1. **Hero** - Dynamic intro with 3D helmet, tech stack carousel, and stats
-2. **Service Summary** - Animated skill showcase with parallax effects
-3. **Services** - Detailed service offerings with sticky scroll
-4. **About** - Personal introduction with achievements and tech arsenal
-5. **Works** - Featured projects with hover previews
-6. **Contact** - Multiple contact methods with animated marquee
-
-## 🎯 Key Animations
-
-- **Loading Screen** - Custom progress bar with shimmer effects
-- **Scroll-Triggered Reveals** - Staggered fade-ins for content
-- **Magnetic Buttons** - Interactive hover effects on CTAs
-- **Parallax Text** - Dynamic text movement on scroll
-- **Image Reveals** - Clip-path animations for photos
-- **Hover Previews** - Project image follows cursor (desktop)
-
-## 📁 Project Structure
-
-```
-portfolio/
-├── public/
-│   ├── assets/
-│   │   └── projects/          # Project images
-│   ├── images/                # Profile images
-│   └── resume/                # Resume PDF
-├── src/
-│   ├── components/
-│   │   ├── AnimatedHeaderSection.jsx
-│   │   ├── AnimatedTextLines.jsx
-│   │   ├── CustomCursor.jsx
-│   │   └── Marquee.jsx
-│   ├── sections/
-│   │   ├── Hero.jsx
-│   │   ├── ServiceSummary.jsx
-│   │   ├── Services.jsx
-│   │   ├── About.jsx
-│   │   ├── Works.jsx
-│   │   ├── ContactSummary.jsx
-│   │   ├── Contact.jsx
-│   │   └── Navbar.jsx
-│   ├── constants/
-│   │   └── index.js           # Site data & content
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css              # Global styles & theme
-└── package.json
-```
-
-## 🎨 Customization
-
-### Theme Colors
-
-```css
---color-primary: #0a0a0a;      /* Background */
---color-accent: #00ff88;        /* Neon green */
---color-accent-blue: #00d4ff;   /* Neon blue */
---color-accent-purple: #b77bff; /* Neon purple */
-```
-
-### Fonts
-Three custom fonts are used:
-- **Syne** - Display headings
-- **Space Grotesk** - Body text
-- **JetBrains Mono** - Code/mono elements
-
-## 📦 Dependencies
-
-### Core
-- `react` - UI framework
-- `react-dom` - React renderer
-- `vite` - Build tool
-
-### Animation & 3D
-- `gsap` - Animation library
-- `three` - 3D graphics
-- `@react-three/drei` - React Three Fiber helpers
-- `@react-three/fiber` - React renderer for Three.js
-- `lenis` - Smooth scroll
-
-### UI & Icons
-- `@iconify/react` - Icon system
-- `react-scroll` - Smooth scroll navigation
-- `react-responsive` - Responsive utilities
-
-## 🎯 Performance Optimizations
-
-- **Code Splitting** - Dynamic imports for heavy components
-- **Image Optimization** - Lazy loading and proper formats
-- **3D Model Optimization** - Efficient geometry and materials
-- **Animation Performance** - GPU-accelerated transforms
-- **Mobile Optimizations** - Disabled 3D on mobile, simplified animations
-
-## 🔧 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-**Note:** Custom cursor and some animations are disabled on mobile for performance.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contact
-
-- **Email** - rajanshu2123@gmail.com
-- **GitHub** - [@anshu-c8NETed](https://github.com/anshu-c8NETed)
-- **LinkedIn** - [anshu-raj-tech](https://www.linkedin.com/in/anshu-raj-tech)
-- **LeetCode** - [@anshxu](https://leetcode.com/u/anshxu)
-
-## 🙏 Acknowledgments
-
-- 3D Model from [Khronos glTF Sample Models](https://github.com/KhronosGroup/glTF-Sample-Models)
-- Inspired by modern developer portfolios
-- Built with passion for clean code and great UX
+</div>
 
 ---
 
-**Made with 💚 and ☕ by Anshu Raj**
+## Overview
 
-*If you found this helpful, consider giving it a ⭐!*
+A production-grade personal portfolio engineered to the same standard as a commercial product. Every interaction is deliberate — from the terminal boot sequence on load to the 3D book that turns pages with bone-deformed mesh physics. Built entirely from scratch with no templates, UI kits, or third-party component libraries.
+
+The goal was simple: build something that other developers stop and study.
+
+---
+
+## Technical Highlights
+
+### 🔖 Interactive 3D Portfolio Book
+The centrepiece of the works section. A fully custom React Three Fiber implementation featuring a **31-bone skinned mesh rig** that physically simulates page turning. Each page face is a **canvas-rendered WebGL texture** generated at runtime — complete with project metadata, metric bars, tech stack pills, and a full editorial layout. Page transitions trigger real audio feedback.
+
+### ⚡ GSAP ScrollTrigger Architecture
+Ten-plus ScrollTrigger instances orchestrate the entire scroll experience — pinned horizontal service panels, 3D perspective fold on the contact hero, clip-path video reveals, scroll-linked image pills embedded inside editorial display text, and scrub-driven parallax throughout. Zero jank, frame-perfect.
+
+### 🌊 WebGL Shader Backgrounds
+UnicornStudio shader compositions run as live WebGL canvases behind the hero and contact sections, composited with `mix-blend-mode: screen` so they integrate seamlessly with the page content rather than sitting behind it.
+
+### 🖱️ Section-Aware Custom Cursor
+A fully custom arrow cursor that reads the active section via ScrollTrigger and transitions its color through the design system palette (`#00ff88` → `#00d4ff` → `#b77bff`). Magnetic scaling on all interactive elements. Hidden on touch devices.
+
+### 🎬 Cinematic Section Transitions
+- **Services Intro** — Text spreads apart as a small rotated video card expands to fill the viewport, then exits via an animated `circle()` clip-path on scroll
+- **Works Intro** — Full-viewport pinned video section with scroll-scrubbed content reveal
+- **Contact Hero** — Panel performs a `rotationX` perspective fold-back as the form section slides beneath it
+
+### 🖼️ Radial Mask Profile Reveal
+The about section profile image uses a CSS `mask-image` with a GSAP-animated `--ms` CSS variable to create a cursor-following circular reveal of a second image layer underneath — no canvas, no JavaScript pixel manipulation.
+
+---
+
+## Stack
+
+| Layer | Technology |
+|---|---|
+| UI Framework | React 18 + Vite |
+| 3D Rendering | Three.js, React Three Fiber, `@react-three/drei` |
+| Animation | GSAP, ScrollTrigger, Observer |
+| Smooth Scroll | Lenis |
+| Styling | Tailwind CSS v4 (custom design tokens) |
+| WebGL FX | UnicornStudio |
+| Forms | Web3Forms |
+| Icons | Iconify |
+| Typography | Syne · Space Grotesk · JetBrains Mono |
+
+---
+
+## Performance
+
+- 60fps on mobile devices
+- Adaptive quality — reduced particle counts, shadow maps, and antialiasing on low-power devices
+- Intersection Observer–gated 3D scene: the book canvas does not initialise until it enters the viewport
+- Mobile boot loader uses a simulated timer instead of blocking on `useProgress` to prevent perceived lag
+
+---
+
+## Author
+
+**Anshu Raj** — Full-Stack Developer 
+Open to freelance projects and full-time opportunities.
+
+📧 rajanshu2123@gmail.com
