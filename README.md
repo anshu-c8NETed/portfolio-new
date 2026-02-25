@@ -10,7 +10,7 @@
 ![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-[Live Site](https://anshu-raj.vercel.app) · [LinkedIn](https://www.linkedin.com/in/anshu-raj-tech) · [GitHub](https://github.com/anshu-c8NETed)
+[Live Site](https:portfolio-by-ar.vercel.app) · [LinkedIn](https://www.linkedin.com/in/anshu-raj-tech) · [GitHub](https://github.com/anshu-c8NETed)
 
 </div>
 
